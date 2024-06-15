@@ -1,0 +1,20 @@
+.event {
+  width: 1920px;
+  width: 100vw;
+
+  height: 100vh;
+  background-image: url("../../../public/bg-event-left.png"),
+    url("../../../public/bg-event-right.png"),
+    url("../../../public/bg-event-center.png");
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: -50px 0px, 1440px 0px, 480px center;
+  background-size: contain;
+  image-rendering: pixelated;
+  border-radius: 5px;
+  transform-origin: 432px 684px;
+  display: grid;
+  grid-template-columns: repeat(20, minmax(96px, 1fr));
+  grid-template-rows: repeat(9, minmax(96px, 1fr));
+  gap: 0px;
+  transform: none;
+}

@@ -3,6 +3,7 @@ import MainLayout from "./components/MainLayout";
 import Home from "./pages/Home";
 import Guides from "./pages/Guides";
 import FAQs from "./pages/FAQs";
+import Event from "./pages/Event";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "/faq/:id?",
         element: <FAQs />,
+      },
+      {
+        path: "/event",
+        element: <Event />,
       },
     ],
   },
