@@ -1,10 +1,10 @@
 import { useParams } from "react-router-dom";
 import Guide from "../components/guides/Guide";
-import Guide1 from "../components/guides/Guide1";
-import Guide2 from "../components/guides/Guide2";
-import Guide3 from "../components/guides/Guide3";
-import Guide4 from "../components/guides/Guide3";
-import Guide5 from "../components/guides/Guide3";
+import GuideAbout from "../components/guides/GuideAbout";
+import GuideRequirements from "../components/guides/GuideRequirements";
+import GuideItems from "../components/guides/GuideItems";
+import GuidePets from "../components/guides/GuideItems";
+import Guide5 from "../components/guides/GuideItems";
 
 function Guides() {
   const { id } = useParams();
@@ -12,16 +12,16 @@ function Guides() {
   let component;
   switch (id) {
     case "1":
-      component = <Guide1 />;
+      component = <GuideAbout />;
       break;
     case "2":
-      component = <Guide2 />;
+      component = <GuideRequirements />;
       break;
     case "3":
-      component = <Guide3 />;
+      component = <GuideItems />;
       break;
     case "4":
-      component = <Guide4 />;
+      component = <GuidePets />;
       break;
     case "5":
       component = <Guide5 />;
