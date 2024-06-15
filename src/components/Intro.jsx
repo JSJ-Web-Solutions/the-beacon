@@ -8,7 +8,7 @@ function Intro() {
       <img src="title.png" alt="" className="intro__title" />
       <div className="intro__btn-container">
         <div class="intro__btn-event">
-          <Link to="#">Last Event</Link>
+          <Link to="/event">Quests</Link>
         </div>
         <div class="intro__btn-play">
           <Link to="#">Play Now!</Link>

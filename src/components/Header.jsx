@@ -15,7 +15,7 @@ function Header() {
           <img src="/header-logo.png" alt="" className="header__logo" />
         </Link>
         <NavLink
-          to="/messages"
+          to="/event"
           className="header__link"
           style={({ isActive }) => {
             return {
@@ -24,7 +24,7 @@ function Header() {
             };
           }}
         >
-          Events
+          Event
         </NavLink>
         <NavLink
           to="/guides"
