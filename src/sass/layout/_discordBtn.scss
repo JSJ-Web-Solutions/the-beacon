@@ -1,0 +1,17 @@
+.discord {
+  &__btn {
+    &-container {
+      position: fixed;
+      bottom: 2rem;
+      right: 2.5rem;
+      z-index: 1000;
+    }
+
+    width: 8rem;
+    transition: all 0.3s;
+
+    &:hover {
+      transform: translateY(-3px);
+    }
+  }
+}

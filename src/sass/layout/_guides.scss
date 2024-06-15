@@ -1,0 +1,42 @@
+.guide {
+  &__text {
+    &-container {
+      width: 45%;
+      font-size: 2rem;
+      margin: 5rem auto 5rem auto;
+    }
+
+    &-h3 {
+      margin-bottom: 2rem;
+      text-decoration: underline;
+    }
+
+    &-p {
+      margin-bottom: 4rem;
+    }
+
+    &-li {
+      // font-weight: 600;
+      margin-bottom: 2rem;
+
+      &:last-child {
+        margin-bottom: 4rem;
+      }
+
+      &-inner {
+        margin-left: 4rem;
+        margin-bottom: 2rem;
+
+        &-2 {
+          margin-left: 8rem;
+          margin-bottom: 2rem;
+        }
+      }
+
+      &__p {
+        margin-top: 2rem;
+        font-weight: 400;
+      }
+    }
+  }
+}
