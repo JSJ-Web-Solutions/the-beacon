@@ -8,9 +8,11 @@ import {
   CircularProgress,
   Tooltip,
   IconButton,
+  styled,
+  tooltipClasses,
 } from "@mui/material";
 
-export default function QuestModal({ icon, title, text, video }) {
+export default function QuestModal({ size, icon, title, text, video }) {
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
 
@@ -24,13 +26,25 @@ export default function QuestModal({ icon, title, text, video }) {
     setOpen(false);
   };
 
+  const CustomTooltip = styled(({ className, ...props }) => (
+    <Tooltip {...props} classes={{ popper: className }} />
+  ))(({ theme }) => ({
+    [`& .${tooltipClasses.tooltip}`]: {
+      fontSize: "1.3em",
+    },
+  }));
+
   return (
     <>
-      <Tooltip title={title} className="index-1000">
+      <CustomTooltip title={title} className="index-1000">
         <IconButton aria-label="edit" size="small" onClick={handleOpen}>
-          <img src={icon} alt="icon" style={{ width: 60, height: 60 }} />
+          <img
+            src={icon}
+            alt="icon"
+            style={{ width: { size }, height: { size } }}
+          />
         </IconButton>
-      </Tooltip>
+      </CustomTooltip>
 
       <Dialog open={open} onClose={handleClose} fullWidth maxWidth="lg">
         <DialogTitle id="alert-dialog-title" className="shadow-lg mb-24">
