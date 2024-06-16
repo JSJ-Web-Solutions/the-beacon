@@ -7,7 +7,11 @@ function DiscordBtn() {
   return (
     <>
       {hasScrolled && (
-        <Link to="https://t.co/aSZUYPFi76" className="discord__btn-container">
+        <Link
+          to="https://t.co/aSZUYPFi76"
+          target="_blank"
+          className="discord__btn-container"
+        >
           <img src="/discord.svg" alt="" className="discord__btn" />
         </Link>
       )}

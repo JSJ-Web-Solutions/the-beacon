@@ -87,3 +87,10 @@ h1 {
 
   font-style: italic;
 }
+
+.btn-sm {
+  font-size: 1.6rem;
+  & > * {
+    padding: 10px 20px !important;
+  }
+}

@@ -1,11 +1,9 @@
 import { useState } from "react";
 import {
-  Button,
   Dialog,
   DialogTitle,
   DialogContent,
   DialogActions,
-  CircularProgress,
   Tooltip,
   IconButton,
   styled,
@@ -14,7 +12,7 @@ import {
 
 export default function QuestModal({ size, icon, title, text, video }) {
   const [open, setOpen] = useState(false);
-  const [loading, setLoading] = useState(false);
+  //   const [loading, setLoading] = useState(false); //
 
   const handleOpen = () => {
     console.log("Opening dialog");
@@ -30,10 +28,9 @@ export default function QuestModal({ size, icon, title, text, video }) {
     <Tooltip {...props} classes={{ popper: className }} />
   ))(({ theme }) => ({
     [`& .${tooltipClasses.tooltip}`]: {
-      fontSize: "1.3em",
+      fontSize: "2em",
     },
   }));
-
   return (
     <>
       <CustomTooltip title={title} className="index-1000">
@@ -55,21 +52,21 @@ export default function QuestModal({ size, icon, title, text, video }) {
 
           <div className="mt-4">
             <DialogActions>
-              <Button
-                className="px-24 py-6 rounded"
+              {/* <Button
+                className="px-24 py-6 rounded intro__btn-event"
                 onClick={handleClose}
                 color="primary"
               >
                 Cancelar
-              </Button>
-
-              <Button
-                type="submit"
-                variant="contained"
-                color="primary"
-                className="px-24 py-6 rounded"
-                disabled={loading}
-              >
+              </Button> */}
+              <div class="intro__btn-event btn-sm" onClick={handleClose}>
+                {/* <Link onClick={handleClose}>Cancelar</Link> */}
+                <span>Cancelar</span>
+              </div>
+              <div class="intro__btn-play btn-sm" onClick={handleClose}>
+                <span>Guardar</span>
+              </div>
+              {/* <div>
                 <div
                   style={{
                     width: "55px",
@@ -80,10 +77,12 @@ export default function QuestModal({ size, icon, title, text, video }) {
                   {loading ? (
                     <CircularProgress className="text-white" size={20} />
                   ) : (
-                    "Guardar"
+                    <div class="intro__btn-play" onClick={handleClose}>
+                      <span>Guardar</span>
+                    </div>
                   )}
-                </div>
-              </Button>
+                </div> */}
+              {/* </div> */}
             </DialogActions>
           </div>
         </DialogContent>

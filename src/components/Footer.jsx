@@ -9,10 +9,10 @@ function Footer() {
         <img src="/title.png" alt="" className="footer__title" />
       </div>
       <div className="footer__icons-container">
-        <Link to="https://x.com/The_Beacon_GG">
+        <Link to="https://x.com/The_Beacon_GG" target="_blank">
           <FontAwesomeIcon icon={faTwitter} className="footer__icons" />
         </Link>
-        <Link to="https://t.co/aSZUYPFi76">
+        <Link to="https://t.co/aSZUYPFi76" target="_blank">
           <FontAwesomeIcon icon={faDiscord} className="footer__icons" />
         </Link>
       </div>
