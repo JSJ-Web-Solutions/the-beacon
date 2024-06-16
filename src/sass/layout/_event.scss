@@ -45,10 +45,14 @@
       &--rectangle {
         width: 5rem;
         height: 5rem;
-        background-color: #000000;
+        // background-color: red;
         position: absolute;
         bottom: -50%;
         transform: translateY(-50%);
+
+        img {
+          transform: translateY(1rem);
+        }
 
         &_first {
           left: -2.3rem;
@@ -70,6 +74,10 @@
           display: flex;
           justify-content: center;
           align-items: flex-start;
+
+          img {
+            transform: translateY(-1rem);
+          }
 
           div {
             width: 5px;
@@ -99,6 +107,10 @@
           justify-content: center;
           align-items: flex-start;
 
+          img {
+            transform: translateY(-1rem);
+          }
+
           div {
             width: 5px;
             height: 10rem;
@@ -126,6 +138,10 @@
           display: flex;
           justify-content: center;
           align-items: flex-start;
+
+          img {
+            transform: translateY(-1rem);
+          }
 
           div {
             width: 5px;
@@ -210,7 +226,7 @@
       &--rectangle {
         width: 5rem;
         height: 5rem;
-        background-color: #000000;
+        // background-color: #000000;
         position: absolute;
         top: 0;
         transform: translateY(-50%);
@@ -220,10 +236,13 @@
 
         &_first {
           left: -2.3rem;
-
           display: flex;
           justify-content: center;
           align-items: flex-start;
+
+          img {
+            transform: translateY(-1rem);
+          }
 
           div {
             width: 5px;
@@ -239,6 +258,10 @@
           justify-content: center;
           align-items: flex-end;
 
+          img {
+            transform: translateY(1rem);
+          }
+
           div {
             width: 5px;
             height: 10rem;
@@ -252,6 +275,10 @@
           display: flex;
           justify-content: center;
           align-items: flex-start;
+
+          img {
+            transform: translateY(-1rem);
+          }
 
           div {
             width: 5px;
@@ -267,6 +294,10 @@
           justify-content: center;
           align-items: flex-end;
 
+          img {
+            transform: translateY(1rem);
+          }
+
           div {
             width: 5px;
             height: 10rem;
@@ -280,6 +311,10 @@
           display: flex;
           justify-content: center;
           align-items: flex-start;
+
+          img {
+            transform: translateY(-1rem);
+          }
 
           div {
             width: 5px;
@@ -295,6 +330,10 @@
           justify-content: center;
           align-items: flex-end;
 
+          img {
+            transform: translateY(1rem);
+          }
+
           div {
             width: 5px;
             height: 10rem;
@@ -308,6 +347,10 @@
           display: flex;
           justify-content: center;
           align-items: flex-start;
+
+          img {
+            transform: translateY(-1rem);
+          }
 
           div {
             width: 5px;
