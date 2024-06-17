@@ -7,6 +7,7 @@
     }
 
     &-h3 {
+      color: #77b7e2;
       margin-bottom: 2rem;
     }
 
@@ -36,6 +37,17 @@
         margin-top: 2rem;
         font-weight: 400;
       }
+    }
+
+    &__img {
+      &-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 4rem;
+      }
+
+      width: 40%;
     }
   }
 }
