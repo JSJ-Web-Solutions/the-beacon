@@ -10,12 +10,9 @@ import {
   tooltipClasses,
 } from "@mui/material";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
 export default function QuestModal({ size, icon, title, text, video }) {
   const [open, setOpen] = useState(false);
-  //   const [loading, setLoading] = useState(false); //
 
   const handleOpen = () => {
     console.log("Opening dialog");
@@ -33,17 +30,24 @@ export default function QuestModal({ size, icon, title, text, video }) {
     [`& .${tooltipClasses.tooltip}`]: {
       fontSize: "2em",
     },
+    [`& .${tooltipClasses.popper}`]: {
+      transform: "translateY(-8px)",
+    },
   }));
+
+  const CustomIconButton = styled(IconButton)(({ theme }) => ({
+    "&:hover": {
+      boxShadow: "none",
+      backgroundColor: "transparent",
+    },
+  }));
+
   return (
     <>
       <CustomTooltip title={title} className="index-1000">
-        <IconButton aria-label="edit" size="small" onClick={handleOpen}>
-          <img
-            src={icon}
-            alt="icon"
-            style={{ width: { size }, height: { size } }}
-          />
-        </IconButton>
+        <CustomIconButton aria-label="edit" size="small" onClick={handleOpen}>
+          <img src={icon} alt="icon" style={{ width: size, height: size }} />
+        </CustomIconButton>
       </CustomTooltip>
 
       <Dialog open={open} onClose={handleClose} fullWidth maxWidth="lg">
@@ -79,7 +83,7 @@ export default function QuestModal({ size, icon, title, text, video }) {
 
           <div className="mt-4">
             <DialogActions>
-              <div class="intro__btn-event btn-sm" onClick={handleClose}>
+              <div className="intro__btn-event btn-sm" onClick={handleClose}>
                 <span>Close</span>
               </div>
             </DialogActions>
