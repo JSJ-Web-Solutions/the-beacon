@@ -27,6 +27,7 @@ function Event() {
                     title={item.title}
                     text={item.text}
                     video={item.video}
+                    active={item.active}
                   />
                 </div>
               );
@@ -47,6 +48,7 @@ function Event() {
                     title={item.title}
                     text={item.text}
                     video={item.video}
+                    active={item.active}
                   />
                 </div>
               );
@@ -63,6 +65,7 @@ function Event() {
                     title={item.title}
                     text={item.text}
                     video={item.video}
+                    active={item.active}
                   />
                 </div>
               );

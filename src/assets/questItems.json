@@ -5,112 +5,126 @@
       "size": 60,
       "icon": "MiniIcon",
       "title": "And So It Begins",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "Adventurers are gathering to brave The New Frontiers. Do you have what it takes?",
+      "video": "",
+      "active": true
     },
     {
       "className": "event-map_top-container--rectangle_child event-map_top-container--rectangle_child__first",
       "size": 60,
       "icon": "MiniIconDark",
       "title": "Share Your Feat!",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "Congratulations! Share your feat for some extra Prestige.",
+      "video": "",
+      "active": true
     },
     {
       "className": "event-map_top-container--rectangle event-map_top-container--rectangle_second",
       "size": 60,
       "icon": "MiniIcon",
       "title": "A Test Of Resilience",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "Adventurers should always keep their wits about them. The fabled Hammer Stout is said to bring even giants to their knees. Can you withstand it?",
+      "video": "",
+      "active": true
     },
     {
       "className": "event-map_top-container--rectangle_child event-map_top-container--rectangle_child__second",
       "size": 60,
       "icon": "MiniIconDark",
       "title": "Share Your Feat!",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "Congratulations! Share your feat for some extra Prestige.",
+      "video": "",
+      "active": true
     },
     {
       "className": "event-map_top-container--rectangle event-map_top-container--rectangle_third",
       "size": 60,
       "icon": "MiniIcon",
       "title": "The Blacksmith's Favor",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "You'll need a weapon, and a blacksmith to make it. It won't ve easy to earn their trust, but that hasn't stopped you so far.",
+      "video": "",
+      "active": true
     },
     {
       "className": "event-map_top-container--rectangle_child event-map_top-container--rectangle_child__third",
       "size": 60,
       "icon": "MiniIconDark",
       "title": "Share Your Feat!",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "Congratulations! Share your feat for some extra Prestige.",
+      "video": "",
+      "active": true
     },
     {
       "className": "event-map_top-container--rectangle event-map_top-container--rectangle_fourth",
       "size": 60,
       "icon": "MiniIcon",
       "title": "A Lesson in Hospitality",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "New arrivals in the settlement must be welcomed! We'll need all the help we can muster, and then some.",
+      "video": "",
+      "active": true
     },
     {
       "className": "event-map_top-container--rectangle_child event-map_top-container--rectangle_child__fourth",
       "size": 60,
       "icon": "MiniIconDark",
       "title": "Share Your Feat!",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "",
+      "video": "",
+      "active": false
     },
     {
       "className": "event-map_top-container--rectangle event-map_top-container--rectangle_fifth",
       "size": 60,
       "icon": "MiniIcon",
       "title": "A Guided Tour",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "",
+      "video": "",
+      "active": false
     },
     {
       "className": "event-map_top-container--rectangle_child event-map_top-container--rectangle_child__fifth",
       "size": 60,
       "icon": "MiniIconDark",
       "title": "Share Your Feat!",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "",
+      "video": "",
+      "active": false
     },
     {
       "className": "event-map_top-container--rectangle event-map_top-container--rectangle_sixth",
       "size": 60,
       "icon": "MiniIcon",
       "title": "Ancient Technology",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "",
+      "video": "",
+      "active": false
     },
     {
       "className": "event-map_top-container--rectangle_child event-map_top-container--rectangle_child__sixth",
       "size": 60,
       "icon": "MiniIconDark",
       "title": "Share Your Feat!",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "",
+      "video": "",
+      "active": false
     },
     {
       "className": "event-map_top-container--rectangle event-map_top-container--rectangle_seventh",
       "size": 60,
       "icon": "MiniIcon",
       "title": "Only the Mightiest",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "",
+      "video": "",
+      "active": false
     },
     {
       "className": "event-map_top-container--rectangle_child event-map_top-container--rectangle_child__seventh",
       "size": 60,
       "icon": "MiniIconDark",
       "title": "Story Path Completed!",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "",
+      "video": "",
+      "active": false
     }
   ],
 
@@ -120,64 +134,72 @@
       "size": 80,
       "icon": "Icon",
       "title": "Join the Ranks",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "Follow us on Twitter! Stay up to date with the latest news, details, updates and more.",
+      "video": "",
+      "active": true
     },
     {
       "className": "event-map_center-line--rectangle event-map_center-line--rectangle_second",
       "size": 80,
       "icon": "Icon",
       "title": "Create Your Account",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "Create your account or log in to begin your adventures in Dawnport!",
+      "video": "",
+      "active": true
     },
     {
       "className": "event-map_center-line--rectangle event-map_center-line--rectangle_third",
       "size": 80,
       "icon": "Icon",
       "title": "Spread the Word!",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "Spread the word far and wide. Let your friends know The New Frontiers Quest began!",
+      "video": "",
+      "active": true
     },
     {
       "className": "event-map_center-line--rectangle event-map_center-line--rectangle_fourth",
       "size": 80,
       "icon": "Icon",
       "title": "Connect your Discord",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "Link your Discord account, you know, bureaucracy.",
+      "video": "",
+      "active": true
     },
     {
       "className": "event-map_center-line--rectangle event-map_center-line--rectangle_fifth",
       "size": 80,
       "icon": "Icon",
       "title": "Join our Discord Server",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "All adventures are welcome in our community, make yourself at home.",
+      "video": "",
+      "active": true
     },
     {
       "className": "event-map_center-line--rectangle event-map_center-line--rectangle_sixth",
       "size": 80,
       "icon": "Icon",
       "title": "Check the New Trailer!",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "",
+      "video": "",
+      "active": false
     },
     {
       "className": "event-map_center-line--rectangle event-map_center-line--rectangle_seventh",
       "size": 80,
       "icon": "Icon",
       "title": "The Word Must Know",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "",
+      "video": "",
+      "active": false
     },
     {
       "className": "event-map_center-line--rectangle event-map_center-line--rectangle_eighth",
       "size": 80,
       "icon": "Icon",
       "title": "Play the Prelude!",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "",
+      "video": "",
+      "active": false
     }
   ],
 
@@ -187,112 +209,126 @@
       "size": 60,
       "icon": "MiniIconBlue",
       "title": "Prove your Worth",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "quest-1.mp4"
+      "text": "",
+      "video": "quest-1.mp4",
+      "active": true
     },
     {
       "className": "event-map_bottom-container--rectangle_child event-map_bottom-container--rectangle_child__first",
       "size": 60,
       "icon": "MiniIconDark",
       "title": "Share Your Feat!",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "Congratulations! Share your feat for some extra Prestige.",
+      "video": "",
+      "active": true
     },
     {
       "className": "event-map_bottom-container--rectangle event-map_bottom-container--rectangle_second",
       "size": 60,
       "icon": "MiniIconBlue",
       "title": "Pebblemite Madness",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "quest-2.mp4"
+      "text": "",
+      "video": "quest-2.mp4",
+      "active": true
     },
     {
       "className": "event-map_bottom-container--rectangle_child event-map_bottom-container--rectangle_child__second",
       "size": 60,
       "icon": "MiniIconDark",
       "title": "Share Your Feat!",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "Congratulations! Share your feat for some extra Prestige.",
+      "video": "",
+      "active": true
     },
     {
       "className": "event-map_bottom-container--rectangle event-map_bottom-container--rectangle_third",
       "size": 60,
       "icon": "MiniIconBlue",
       "title": "Traps, Traps everywhere",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "quest-3.mp4"
+      "text": "",
+      "video": "quest-3.mp4",
+      "active": true
     },
     {
       "className": "event-map_bottom-container--rectangle_child event-map_bottom-container--rectangle_child__third",
       "size": 60,
       "icon": "MiniIconDark",
       "title": "Share Your Feat!",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "Congratulations! Share your feat for some extra Prestige.",
+      "video": "",
+      "active": true
     },
     {
       "className": "event-map_bottom-container--rectangle event-map_bottom-container--rectangle_fourth",
       "size": 60,
       "icon": "MiniIconBlue",
       "title": "Mechanic Abomination",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "quest-4.mp4"
+      "text": "",
+      "video": "quest-4.mp4",
+      "active": true
     },
     {
       "className": "event-map_bottom-container--rectangle_child event-map_bottom-container--rectangle_child__fourth",
       "size": 60,
       "icon": "MiniIconDark",
       "title": "Share Your Feat!",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "Congratulations! Share your feat for some extra Prestige.",
+      "video": "",
+      "active": true
     },
     {
       "className": "event-map_bottom-container--rectangle event-map_bottom-container--rectangle_fifth",
       "size": 60,
       "icon": "MiniIcon",
       "title": "Dodge For Your Life",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "",
+      "video": "",
+      "active": false
     },
     {
       "className": "event-map_bottom-container--rectangle_child event-map_bottom-container--rectangle_child__fifth",
       "size": 60,
       "icon": "MiniIconDark",
       "title": "Share Your Feat!",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "",
+      "video": "",
+      "active": false
     },
     {
       "className": "event-map_bottom-container--rectangle event-map_bottom-container--rectangle_sixth",
       "size": 60,
       "icon": "MiniIcon",
       "title": "The Grin",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "",
+      "video": "",
+      "active": false
     },
     {
       "className": "event-map_bottom-container--rectangle_child event-map_bottom-container--rectangle_child__sixth",
       "size": 60,
       "icon": "MiniIconDark",
       "title": "Share Your Feat!",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "",
+      "video": "",
+      "active": false
     },
     {
       "className": "event-map_bottom-container--rectangle event-map_bottom-container--rectangle_seventh",
       "size": 60,
       "icon": "MiniIcon",
       "title": "Dawnport's Finest",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "",
+      "video": "",
+      "active": false
     },
     {
       "className": "event-map_bottom-container--rectangle_child event-map_bottom-container--rectangle_child__seventh",
       "size": 60,
       "icon": "MiniIconDark",
       "title": "Combat Path Completed!",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "text": "",
+      "video": "",
+      "active": false
     }
   ]
 }
