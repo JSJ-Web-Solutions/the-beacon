@@ -478,6 +478,27 @@
       }
     }
   }
+
+  &__warning {
+    position: absolute;
+    bottom: 4rem;
+    right: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+    font-size: 1.8rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: 10px;
+    padding: 1.5rem 3rem;
+    border-radius: 10px;
+
+    &-img {
+      width: 4.5rem;
+    }
+  }
 }
 
 .index-1000 {
