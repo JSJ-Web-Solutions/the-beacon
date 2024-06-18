@@ -186,9 +186,9 @@
       "className": "event-map_bottom-container--rectangle event-map_bottom-container--rectangle_first",
       "size": 60,
       "icon": "MiniIcon",
-      "title": "Share Your Feat!",
+      "title": "Prove your Worth",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "video": "quest-1.mp4"
     },
     {
       "className": "event-map_bottom-container--rectangle_child event-map_bottom-container--rectangle_child__first",
@@ -202,9 +202,9 @@
       "className": "event-map_bottom-container--rectangle event-map_bottom-container--rectangle_second",
       "size": 60,
       "icon": "MiniIcon",
-      "title": "Share Your Feat!",
+      "title": "Pebblemite Madness",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "video": "quest-2.mp4"
     },
     {
       "className": "event-map_bottom-container--rectangle_child event-map_bottom-container--rectangle_child__second",
@@ -218,9 +218,9 @@
       "className": "event-map_bottom-container--rectangle event-map_bottom-container--rectangle_third",
       "size": 60,
       "icon": "MiniIcon",
-      "title": "Share Your Feat!",
+      "title": "Traps, Traps everywhere",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "video": "quest-3.mp4"
     },
     {
       "className": "event-map_bottom-container--rectangle_child event-map_bottom-container--rectangle_child__third",
@@ -234,15 +234,15 @@
       "className": "event-map_bottom-container--rectangle event-map_bottom-container--rectangle_fourth",
       "size": 60,
       "icon": "MiniIcon",
-      "title": "Share Your Feat!",
+      "title": "Mechanic Abomination",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
-      "video": "Video 1"
+      "video": "quest-4.mp4"
     },
     {
       "className": "event-map_bottom-container--rectangle_child event-map_bottom-container--rectangle_child__fourth",
       "size": 60,
       "icon": "MiniIconDark",
-      "title": "Share Your Feat!",
+      "title": "",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error, minus molestias omnis adipisci porro magni natus libero, obcaecati ab eius unde sequi molestiae. Repellat ut eligendi aperiam minima voluptatibus.",
       "video": "Video 1"
     },

@@ -1,0 +1,16 @@
+.quest {
+  &__video {
+    &-container {
+      text-align: center;
+    }
+
+    width: 60%;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    box-shadow: rgba(119, 183, 226, 0.2) 0px 5px 15px 0px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

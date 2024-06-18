@@ -31,10 +31,7 @@ function Guides() {
         </Link>
         <Link to="/guides/6" className="guides__link">
           Player Customization{" "}
-          <FontAwesomeIcon
-            icon={faUpRightFromSquare}
-            className="guides__link-icon"
-          />
+          <FontAwesomeIcon icon={faRightLong} className="guides__link-icon" />
         </Link>
         <Link to="/guides/7" className="guides__link">
           House Customization{" "}

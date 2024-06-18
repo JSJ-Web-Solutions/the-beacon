@@ -24,7 +24,7 @@ function Event() {
                     icon={iconComponents[item.icon]}
                     title={item.title}
                     text={item.text}
-                    video={item.videoName}
+                    video={item.video}
                   />
                 </div>
               );
@@ -44,7 +44,7 @@ function Event() {
                     icon={iconComponents[item.icon]}
                     title={item.title}
                     text={item.text}
-                    video={item.videoName}
+                    video={item.video}
                   />
                 </div>
               );
@@ -60,7 +60,7 @@ function Event() {
                     icon={iconComponents[item.icon]}
                     title={item.title}
                     text={item.text}
-                    video={item.videoName}
+                    video={item.video}
                   />
                 </div>
               );

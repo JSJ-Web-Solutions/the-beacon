@@ -9,6 +9,9 @@ import {
   styled,
   tooltipClasses,
 } from "@mui/material";
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
 export default function QuestModal({ size, icon, title, text, video }) {
   const [open, setOpen] = useState(false);
@@ -44,45 +47,41 @@ export default function QuestModal({ size, icon, title, text, video }) {
       </CustomTooltip>
 
       <Dialog open={open} onClose={handleClose} fullWidth maxWidth="lg">
+        <DialogTitle
+          id="alert-dialog-title"
+          className="shadow-lg mb-24"
+          style={{
+            textAlign: "center",
+            fontSize: "3rem",
+            color: "#77b7e2",
+            fontWeight: "600",
+          }}
+        >
+          {title}
+        </DialogTitle>
         <DialogTitle id="alert-dialog-title" className="shadow-lg mb-24">
           {text}
         </DialogTitle>
         <DialogContent>
-          <div>{video}</div>
+          <div className="quest__video-container">
+            <video
+              src={`/videos/${video}`}
+              controls
+              className="quest__video"
+            ></video>
+            <p>
+              Video from:{" "}
+              <Link to="https://x.com/karelvuong" target="_blank">
+                @karelvuong
+              </Link>
+            </p>
+          </div>
 
           <div className="mt-4">
             <DialogActions>
-              {/* <Button
-                className="px-24 py-6 rounded intro__btn-event"
-                onClick={handleClose}
-                color="primary"
-              >
-                Cancelar
-              </Button> */}
               <div class="intro__btn-event btn-sm" onClick={handleClose}>
-                {/* <Link onClick={handleClose}>Cancelar</Link> */}
-                <span>Cancelar</span>
+                <span>Close</span>
               </div>
-              <div class="intro__btn-play btn-sm" onClick={handleClose}>
-                <span>Guardar</span>
-              </div>
-              {/* <div>
-                <div
-                  style={{
-                    width: "55px",
-                    display: "flex",
-                    justifyContent: "center",
-                  }}
-                >
-                  {loading ? (
-                    <CircularProgress className="text-white" size={20} />
-                  ) : (
-                    <div class="intro__btn-play" onClick={handleClose}>
-                      <span>Guardar</span>
-                    </div>
-                  )}
-                </div> */}
-              {/* </div> */}
             </DialogActions>
           </div>
         </DialogContent>
