@@ -7,12 +7,12 @@ import { ThemeProvider, createTheme } from "@mui/material";
 const darkTheme = createTheme({
   palette: {
     mode: "dark",
-    primary: { main: "#77b7e2", dark: "#5991b6" },
+    primary: { main: "#4dabf7", dark: "#1971c2" },
     secondary: { main: "#bbbbbb", dark: "#aaa" },
     background: { default: "#0f1021", paper: "#0f1021" },
   },
   typography: {
-    fontFamily: "Baskervville",
+    fontFamily: "$font-family_main",
     h1: {
       fontFamily: "VT323",
       fontSize: "3.5rem",

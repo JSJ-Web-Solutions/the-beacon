@@ -68,7 +68,7 @@ export default function QuestModal({
             style={{
               textAlign: "center",
               fontSize: "3rem",
-              color: "#77b7e2",
+              color: "#4dabf7",
               fontWeight: "600",
             }}
           >

@@ -1,7 +1,7 @@
 .quest {
   &__title {
     // font-size: 3rem;
-    color: #77b7e2;
+    color: #4dabf7;
     margin-left: auto;
     margin-right: auto;
   }
@@ -22,7 +22,7 @@
     &-title {
       color: white;
       font-size: 2.5rem;
-      color: #77b7e2;
+      color: #4dabf7;
       margin-bottom: 1rem;
     }
 
@@ -39,10 +39,13 @@
 
     &-title {
       width: 80%;
-      font-size: 2.5rem;
-      color: #77b7e2;
+      font-size: 3rem;
+      color: #4dabf7;
+      color: #fff;
       margin: auto;
       margin-bottom: 1rem;
+      text-align: center;
+      font-family: "VT323", sans-serif;
     }
 
     width: 60%;
@@ -64,12 +67,13 @@
       top: -1.5rem;
       right: -1.5rem;
       padding: 0.6rem 1rem;
-      background-color: #77b7e2;
+      background-color: #4dabf7;
       border-radius: 50%;
+      margin: 2rem;
 
       &:hover {
         cursor: pointer;
-        background-color: darken(#77b7e2, 10%);
+        background-color: darken(#4dabf7, 10%);
       }
     }
 
