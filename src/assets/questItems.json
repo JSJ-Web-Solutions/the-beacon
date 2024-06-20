@@ -265,7 +265,14 @@
       "title": "Mechanic Abomination",
       "text": "",
       "video": "quest-4.mp4",
-      "active": true
+      "active": true,
+      "tips": [
+        " Hide through the batteries to avoid getting hit.",
+        "Attack the batteries and skeleton all at once (summon them).",
+        "Get a maximum 4-5 attack from boss and back, focus on surviving.",
+        "Avoid getting hit by the skeleton.",
+        "Focus on killing the batteries and avoiding the boss attack."
+      ]
     },
     {
       "className": "event-map_bottom-container--rectangle_child event-map_bottom-container--rectangle_child__fourth",
@@ -279,11 +286,11 @@
     {
       "className": "event-map_bottom-container--rectangle event-map_bottom-container--rectangle_fifth",
       "size": 60,
-      "icon": "MiniIcon",
+      "icon": "MiniIconBlue",
       "title": "Dodge For Your Life",
       "text": "",
-      "video": "",
-      "active": false
+      "video": "quest-5.mp4",
+      "active": true
     },
     {
       "className": "event-map_bottom-container--rectangle_child event-map_bottom-container--rectangle_child__fifth",
@@ -297,11 +304,15 @@
     {
       "className": "event-map_bottom-container--rectangle event-map_bottom-container--rectangle_sixth",
       "size": 60,
-      "icon": "MiniIcon",
+      "icon": "MiniIconBlue",
       "title": "The Grin",
       "text": "",
-      "video": "",
-      "active": false
+      "video": "quest-6.mp4",
+      "active": true,
+      "tips": [
+        "Use Space: Dash to avoid damaging projectiles",
+        "Dodge as many projectiles as possible and wait for the boss to rest/stand still to deal damage."
+      ]
     },
     {
       "className": "event-map_bottom-container--rectangle_child event-map_bottom-container--rectangle_child__sixth",

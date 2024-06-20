@@ -66,6 +66,7 @@ function Event() {
                     text={item.text}
                     video={item.video}
                     active={item.active}
+                    tips={item.tips}
                   />
                 </div>
               );

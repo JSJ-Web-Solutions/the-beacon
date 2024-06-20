@@ -10,8 +10,18 @@ import {
   tooltipClasses,
 } from "@mui/material";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
-export default function QuestModal({ size, icon, title, text, video, active }) {
+export default function QuestModal({
+  size,
+  icon,
+  title,
+  text,
+  video,
+  active,
+  tips,
+}) {
   const [open, setOpen] = useState(false);
 
   const handleOpen = () => {
@@ -54,7 +64,7 @@ export default function QuestModal({ size, icon, title, text, video, active }) {
         <Dialog open={open} onClose={handleClose} fullWidth maxWidth="lg">
           <DialogTitle
             id="alert-dialog-title"
-            className="shadow-lg mb-24"
+            className="shadow-lg mb-24 quest__title"
             style={{
               textAlign: "center",
               fontSize: "3rem",
@@ -64,41 +74,43 @@ export default function QuestModal({ size, icon, title, text, video, active }) {
           >
             {title}
           </DialogTitle>
-          <DialogTitle
+          {/* <DialogTitle
             id="alert-dialog-title"
-            className="shadow-lg mb-24"
-            style={{
-              width: "80%",
-              marginLeft: "auto",
-              marginRight: "auto",
-              textAlign: "center",
-            }}
+            className="shadow-lg mb-24 quest__text"
           >
             {text}
-          </DialogTitle>
+          </DialogTitle> */}
           <DialogContent>
-            {video && (
-              <div className="quest__video-container">
-                <video
-                  src={`/videos/${video}`}
-                  controls
-                  className="quest__video"
-                ></video>
-                <p>
-                  Video from:{" "}
-                  <Link to="https://x.com/karelvuong" target="_blank">
-                    @karelvuong
-                  </Link>
-                </p>
+            <p className="quest__text">{text}</p>
+            {tips && (
+              <div className="quest__tips-container">
+                <p className="quest__tips-title">Tips </p>
+                {tips.map((tip) => {
+                  return <li className="quest__tips-li">{tip}</li>;
+                })}
               </div>
             )}
-
-            <div className="mt-4">
-              <DialogActions>
-                <div className="intro__btn-event btn-sm" onClick={handleClose}>
-                  <span>Close</span>
+            {video && (
+              <>
+                <p className="quest__video-title">Tutorial</p>
+                <div className="quest__video-container">
+                  <video
+                    src={`/videos/${video}`}
+                    controls
+                    className="quest__video"
+                  ></video>
+                  <p className="quest__video-credits">
+                    Video from:{" "}
+                    <Link to="https://x.com/karelvuong" target="_blank">
+                      @karelvuong
+                    </Link>
+                  </p>
                 </div>
-              </DialogActions>
+              </>
+            )}
+
+            <div className="quest__xmark-container" onClick={handleClose}>
+              <FontAwesomeIcon icon={faXmark} className="quest__xmark" />
             </div>
           </DialogContent>
         </Dialog>

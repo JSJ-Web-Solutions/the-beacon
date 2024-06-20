@@ -1,12 +1,12 @@
 import Intro from "../components/Intro";
-import Video from "../components/Video";
+import About from "../components/About";
 import Tasks from "../components/Tasks";
 
 function Home() {
   return (
     <>
       <Intro />
-      <Video />
+      <About />
       <Tasks />
     </>
   );

@@ -1,16 +1,78 @@
 .quest {
+  &__title {
+    // font-size: 3rem;
+    color: #77b7e2;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__text {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+  }
+
+  &__tips {
+    &-container {
+      width: 80%;
+      margin: auto;
+      margin-bottom: 2rem;
+    }
+
+    &-title {
+      color: white;
+      font-size: 2.5rem;
+      color: #77b7e2;
+      margin-bottom: 1rem;
+    }
+
+    &-li {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+
   &__video {
     &-container {
       text-align: center;
     }
 
+    &-title {
+      width: 80%;
+      font-size: 2.5rem;
+      color: #77b7e2;
+      margin: auto;
+      margin-bottom: 1rem;
+    }
+
     width: 60%;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     border-radius: 4px;
-    box-shadow: rgba(119, 183, 226, 0.2) 0px 5px 15px 0px;
 
     &:hover {
       cursor: pointer;
     }
+
+    &-credits {
+      font-size: 1.4rem;
+    }
+  }
+
+  &__xmark {
+    &-container {
+      position: absolute;
+      top: -1.5rem;
+      right: -1.5rem;
+      padding: 0.6rem 1rem;
+      background-color: #77b7e2;
+      border-radius: 50%;
+
+      &:hover {
+        cursor: pointer;
+        background-color: darken(#77b7e2, 10%);
+      }
+    }
+
+    font-size: 2.5rem;
   }
 }

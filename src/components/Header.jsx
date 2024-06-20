@@ -27,6 +27,18 @@ function Header() {
           Event
         </NavLink>
         <NavLink
+          to="/weekly-dungeon"
+          className="header__link"
+          style={({ isActive }) => {
+            return {
+              backgroundColor: isActive ? "rgba(255, 255, 255, 0.25)" : "",
+              borderRadius: isActive ? "4px" : "",
+            };
+          }}
+        >
+          Weekly Dungeons
+        </NavLink>
+        <NavLink
           to="/guides"
           className="header__link"
           style={({ isActive }) => {
@@ -37,18 +49,6 @@ function Header() {
           }}
         >
           Guides
-        </NavLink>
-        <NavLink
-          to="/faq"
-          className="header__link"
-          style={({ isActive }) => {
-            return {
-              backgroundColor: isActive ? "rgba(255, 255, 255, 0.25)" : "",
-              borderRadius: isActive ? "4px" : "",
-            };
-          }}
-        >
-          FAQ
         </NavLink>
         <NavLink
           to="https://app.treasure.lol/games/the-beacon?tab=collections"
