@@ -64,7 +64,9 @@ function Header() {
           Marketplace
         </NavLink>
         <div class="header__link header__link-play">
-          <Link to="/">Play</Link>
+          <Link to="https://nfq.thebeacon.gg/" target="_blank">
+            Play
+          </Link>
         </div>
       </header>
       {/* )} */}

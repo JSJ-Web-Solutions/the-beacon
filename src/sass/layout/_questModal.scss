@@ -66,10 +66,13 @@
       position: absolute;
       top: -1.5rem;
       right: -1.5rem;
-      padding: 0.6rem 1rem;
+      padding: 0.7rem 1.2rem;
       background-color: #4dabf7;
       border-radius: 50%;
       margin: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
       &:hover {
         cursor: pointer;

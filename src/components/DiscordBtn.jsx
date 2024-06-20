@@ -8,7 +8,7 @@ function DiscordBtn() {
     <>
       {hasScrolled && (
         <Link
-          to="https://t.co/aSZUYPFi76"
+          to="https://discord.gg/thebeacon"
           target="_blank"
           className="discord__btn-container"
         >
